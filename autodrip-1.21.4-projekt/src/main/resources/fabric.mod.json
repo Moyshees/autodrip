@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "autodrip",
+  "version": "${version}",
+  "name": "AutoDrip",
+  "description": "Automatycznie otwiera trapdoora z dripstonem, gdy ktoś stoi pod nim. Menu pod klawiszem V.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.autodrip.AutoDripClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
